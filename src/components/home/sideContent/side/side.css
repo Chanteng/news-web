@@ -56,6 +56,12 @@
   margin-bottom: 20px;
   padding: 10px;
 }
+
+.link {
+  color: white;
+  font-weight: 700;
+}
+
 /*----------gallery----------*/
 .gallery .img {
   width: 315px;

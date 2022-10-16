@@ -8,10 +8,10 @@ const SocialMedia = () => {
           <i className='fab fa-facebook-f'></i>
           <span>12,740 Likes</span>
         </div>
-        <div className='socBox'>
+        {/* <div className='socBox'>
           <i className='fab fa-pinterest'></i>
           <span>5,600 Fans</span>
-        </div>
+        </div> */}
         <div className='socBox'>
           <i className='fab fa-twitter'></i>
           <span>8,700 Followers</span>

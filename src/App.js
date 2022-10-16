@@ -5,7 +5,9 @@ import Homepages from "./components/home/Homepages"
 import Footer from "./components/common/footer/Footer"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import SinglePage from "./components/singlePage/SinglePage"
-import Culture from "./components/culture/Culture"
+import Sports from "./components/sports/Sports"
+import Health from "./components/health/Health"
+
 
 const App = () => {
   return (
@@ -15,7 +17,8 @@ const App = () => {
         <Switch>
           <Route exact path='/' component={Homepages} />
           <Route path='/singlepage/:id' exact component={SinglePage} />
-          <Route exact path='/culture' component={Culture} />
+          <Route exact path='/sports' component={Sports} />
+          <Route exact path="/health" component={Health} />
         </Switch>
         <Footer />
       </Router>

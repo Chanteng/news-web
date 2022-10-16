@@ -1,0 +1,33 @@
+.news-app {
+  display: flex;
+  justify-content: center;
+
+}
+
+.newsitems {
+  width: 1000px;
+  padding: 10px;
+  border: 1px solid;
+  box-shadow: 5px 2px 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+}
+
+.news-img {
+  width: 500px;
+}
+
+.txt {
+    display: grid;
+    /* gap: 1rem;
+    grid-auto-flow: column; */
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}

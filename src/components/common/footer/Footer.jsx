@@ -1,71 +1,55 @@
-import React from "react"
-import "./footer.css"
+import React from "react";
+import "./footer.css";
 
 const Footer = () => {
   return (
     <>
       <footer>
-        <div className='container'>
-          <div className='box logo'>
-            <img src='../images/tech-logo-footer.png' alt='' />
-            <p>Busan is an amazing magazine Blogger theme that is easy to customize for your needs</p>
-            <i className='fa fa-envelope'></i>
-            <span> hello@beautiful.com </span> <br />
-            <i className='fa fa-headphones'></i>
-            <span> +91 60521488</span>
+        <div className="container">
+          <div className="box logo">
+            <img src="../images/max-footer.png" alt="" className="imglogo" />
+         
+              </div>
+
+          <div className="box">
+            <h3>ABOUT US:</h3>
+
+            <h3>
+            <p>
+              MAX TV is a 24hr Digital Satellite and Terrestrial free to air
+              Television Channel that is redefining quality TV entertainment and
+              slick presentation to our national and international audience.
+            </p>
+            </h3>
+         
           </div>
+    
           <div className='box'>
-            <h3>SPORT</h3>
-            <div className='item'>
-              <img src='../images/hero/hero1.jpg' alt='' />
-              <p>Google To Boost Android Security In Few Days</p>
-            </div>
-            <div className='item'>
-              <img src='../images/hero/hero2.jpg' alt='' />
-              <p>Cespedes play the winning Baseball Game</p>
-            </div>
-          </div>
-          <div className='box'>
-            <h3>CRICKET</h3>
-            <div className='item'>
-              <img src='../images/hero/hero3.jpg' alt='' />
-              <p>US Promises to give Intel aid to locate the soldiers</p>
-            </div>
-            <div className='item'>
-              <img src='../images/hero/hero1.jpg' alt='' />
-              <p>Renewable energy dead as industry waits for Policy</p>
-            </div>
-          </div>
-          <div className='box'>
-            <h3>LABELS</h3>
-            {/*<i className='fa fa-chevron-right'></i>*/}
-            <ul>
-              <li>
-                <span>Boxing</span> <label>(5)</label>
-              </li>
-              <li>
-                <span>Fashion</span> <label>(6)</label>
-              </li>
-              <li>
-                <span>Health</span> <label>(7)</label>
-              </li>
-              <li>
-                <span>Nature</span> <label>(9)</label>
-              </li>
-            </ul>
+
+            <h3>CONNECT WITH US:</h3>
+          {/*<i className='fa fa-chevron-right'></i>*/}
+          <i className="fa fa-envelope"></i>
+            <span> info@maxtvgh.com </span> <br /><br />
+            <i className="fa fa-phone"></i>
+            <span> +233 55 643 0724 </span> <br /><br />
+            <i className="fa fa-facebook"></i>
+            <span> +233 55 643 0724 </span> <br /><br />
+            <i className="fa fa-location"></i>
+            <span> P. O. Box OD 431 Dansoman, Accra Darkuman Junction </span>
+       
           </div>
         </div>
       </footer>
-      <div className='legal  '>
-        <div className='container flexSB'>
-          <p>© all rights reserved</p>
+      <div className="legal  ">
+        <div className="container flexSB">
+          <p>COPYRIGHT © MAXTV 2022</p>
           <p>
-            made with <i className='fa fa-heart'></i> by gorkhcoder
+            BY <i className="fa fa-heart"></i> OIS MEDIA
           </p>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

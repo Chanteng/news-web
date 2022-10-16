@@ -27,9 +27,9 @@ const Ppost = () => {
                       <div className='img'>
                         <img src={val.cover} alt='' />
                       </div>
-                      <div class='category category1'>
+                      {/* <div class='category category1'>
                         <span>{val.catgeory}</span>
-                      </div>
+                      </div> */}
                     </div>
                     <div className='text'>
                       <h1 className='title'>{val.title.slice(0, 40)}...</h1>

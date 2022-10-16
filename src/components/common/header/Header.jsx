@@ -17,22 +17,25 @@ const Header = () => {
                 <Link to='/'>Home</Link>
               </li>
               <li>
-                <Link to='/culture'>Culture</Link>
+                <Link to='/health'>Health</Link>
               </li>
               <li>
-                <Link to='/politics'>Politics</Link>
+                <Link to='/entertainemnet'>Entertainment</Link>
               </li>
               <li>
-                <Link to='/memes'>Memes</Link>
+                <Link to='/business'>Business</Link>
               </li>
               <li>
                 <Link to='/sports'>Sports</Link>
               </li>
               <li>
-                <Link to='/boxed'>Boxed</Link>
+                <Link to='/technology'>Technology</Link>
               </li>
               <li>
-                <Link to='/reviews'>Reviews</Link>
+                <Link to='/about'>About Us</Link>
+              </li>
+              <li>
+                <Link to='/contact'>Contact Us</Link>
               </li>
             </ul>
             <button className='barIcon' onClick={() => setNavbar(!navbar)}>
