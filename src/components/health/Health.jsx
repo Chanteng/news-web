@@ -1,14 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Health = () => {
+const health = () => {
   return (
-    <View>
-      <Text>Health</Text>
-    </View>
+    <div>health</div>
   )
 }
 
-export default Health
-
-const styles = StyleSheet.create({})
+export default health
